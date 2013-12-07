@@ -6,7 +6,10 @@
         'src/kinect.cc',
       ],
       'libraries': [
-         'libfreenect.a',
+        'libfreenect.a',
+      ],
+      'include_dirs': [
+        '/usr/local/include',
       ],
     }
   ]
